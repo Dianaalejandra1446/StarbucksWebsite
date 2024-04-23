@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio web de Starbucks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <div class="circulo"></div>
+        <header>
+            <a href="#"><img src="img/logo.png" alt="logo starbucks"  class="logo"></a>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Menú</a></li>
+                <li><a href="#">Novedades</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </header>
+        <div class="contenido">
+            <div class="textBox">
+            <h2>No es solo un café<br>es <span>Starbucks</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, numquam eaque. Iure voluptas architecto quos earum, porro soluta laudantium hic quis repellat omnis sequi, eius veniam voluptatem. Autem, veniam eligendi</p>
+            <a href="#">Aprende más</a>
+            </div>
+            <div class="imgBox">
+                <img src="img/img1.png" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li>
+                <img src="img/thumb1.png" alt="thumb1" onclick="animacionImg('img/img1.png');cambiarColorCirculo('#017149')">
+            </li>
+            <li>
+                <img src="img/thumb2.png" alt="thumb2" onclick="animacionImg('img/img2.png');cambiarColorCirculo('#eb7495')">
+            </li>
+            <li>
+                <img src="img/thumb3.png" alt="thumb3"onclick="animacionImg('img/img3.png');cambiarColorCirculo('#d752b1')">
+            </li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+            <li><a href="#"><img src="img/instagram.png"></a></li>
+        </ul>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
